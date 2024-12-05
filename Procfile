@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run app.py
+web: bundle exec jekyll serve --config _test/_config-version-2.yml --no-watch --port $PORT --host 0.0.0.0
